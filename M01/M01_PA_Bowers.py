@@ -1,7 +1,7 @@
 # Jenn Bowers
 # M01_PA_Bowers.py
 # Module 1 Programming Assignment
-# 1/20/2025
+# 1/20/2026
 
 
 import os
@@ -54,4 +54,5 @@ contestants = ["Boaty McBoatface", "Horsey McHorseface", "Trainy McTrainface"]
 
 for i, item in enumerate(items):
     prize_announcement = f'The winner of the "prize {(items[i])} award" goes to {(contestants[i])}!'
+
     print(prize_announcement)
